@@ -1,0 +1,134 @@
+@charset "utf-8"; 
+body, div, dl, dt, dd,  p, pre, code, blockquote {
+	color:#000000;
+	    font-family: 'Laila', sans-serif;
+	font-weight: 500;
+	font-size: clamp(90%, 95%, 2em);
+	background-color:#87daff;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#000000;
+	    font-family: 'Laila', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	background-color:#87daff;}
+
+.container {
+  position: relative;
+	float: left;
+	width: 20%;
+	height: 80vh;
+	border: 1px solid #000000;}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  -ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+a:link, a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+	display: inline-block;}
+
+
+.center2 {
+  margin: 0;
+  position: relative;
+	text-align-last: center;}
+
+.yorangeframe {
+	position: relative;
+	left: 18%;
+	padding: 0px 1%;
+	background-color: #ffb838;
+	border: 1px solid #000000;
+	 
+	display: inline-flex;
+  font-size: 1em;
+	 width: 20%;
+	height: 20em;
+	text-align: center;
+}
+.homebutton {
+	position: relative;
+	top: 0;
+	left: 50%;
+	-ms-transform: translate(-50%, -00%);
+	transform: translate(-50%, -00%);
+	 text-decoration: none;
+	font-size: 2em;
+	text-align: center;
+}
+		 
+
+ 
+div.gallery {
+	background: #FF7A13;
+  margin: 5px;
+  border: 3px solid #000000; 
+	border-radius: 5px;
+  float: none; /*hier left eintragen das sich das links im fenster mit andren einordnet*/
+  width: 220px;
+}
+
+div.gallery:hover {
+	background: #FF7A13;
+	margin: 3px;
+  border: 5px solid #000000;
+	 
+}
+
+div.gallery img {
+	background: #FF7A13;
+  width: 100%;
+  height: auto;
+}
+
+div.desc  {
+	background: #FF7A13;
+  padding: 15px;
+  text-align: center; 
+		}
+p.leftline {
+	
+}
+p.rightline {
+	position: relative;
+	left: 60%;
+}
+.leftline2 {
+	text-align: center;
+	position: relative;
+	left: 20%;
+	width: 60%
+}
+
+#impressum {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	-ms-transform: translate(-50%, -00%);
+	transform: translate(-50%, -00%);
+	text-align: center;
+}
+
+#language {
+	position: fixed;
+	top: 5%;right: 5%;
+	float: left;
+}
