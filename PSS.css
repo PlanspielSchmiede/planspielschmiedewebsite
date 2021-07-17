@@ -65,19 +65,21 @@ a:link, a:visited {
   position: relative;
 	text-align-last: center;}
 
+
+.yorangeframecontainer{
+	display: flex;
+	flex-wrap: nowrap;
+}
 .yorangeframe {
 	position: relative;
 	left: 18%;
 	padding: 0px 1%;
 	background-color: #ffb838;
 	border: 1px solid #000000;
-	 
-	display: block;
-	float: left;
 	margin-right: 2%;
   font-size: 1em;
 	 width: 20%;
-	height: 20em;
+	min-height: 20%;
 	text-align: center;
 }
 .homebutton {
