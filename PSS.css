@@ -1,4 +1,18 @@
 @charset "utf-8"; 
+@font-face {
+  font-family: 'Laila';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('fonts/laila-latin-500-normal.woff2') format('woff2'), url('fonts/laila-all-500-normal.woff') format('woff');
+}
+@font-face {
+  font-family: 'Laila';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('fonts/laila-latin-700-normal.woff2') format('woff2'), url('fonts/laila-all-700-normal.woff') format('woff');
+}
 body, div, dl, dt, dd,  p, pre, code, blockquote {
 	color:#000000;
 	    font-family: 'Laila', sans-serif;
