@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 	float: left;
 	width: 20%;
-	height: 80vh;
+	height: 70vh;
 	border: 1px solid #000000;}
 
 .container .btn {
@@ -91,7 +91,7 @@ a:link, a:visited {
 	-ms-transform: translate(-50%, -00%);
 	transform: translate(-50%, -00%);
 	 text-decoration: none;
-	font-size: 2em;
+	font-size: 4em;
 	text-align: center;
 }
 		 
