@@ -102,8 +102,8 @@ div.gallery {
   margin: 5px;
   border: 3px solid #000000; 
 	border-radius: 5px;
-  float: none; /*hier left eintragen das sich das links im fenster mit andren einordnet*/
-  width: 220px;
+  float: left; /*hier left eintragen das sich das links im fenster mit andren einordnet*/
+  width: 20em;
 }
 
 div.gallery:hover {
