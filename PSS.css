@@ -152,3 +152,9 @@ p.rightline {
 	top: 5%;right: 5%;
 	float: left;
 }
+
+.textblock{
+	position: relative;
+	left:10%; 
+	width:80%;
+}
