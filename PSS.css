@@ -85,7 +85,7 @@ a:link, a:visited {
 	
 }
 .homebutton {
-	position: fixed;
+	position: relative;
 	top: 0;
 	left: 50%;
 	-ms-transform: translate(-50%, -00%);
